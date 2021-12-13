@@ -1,0 +1,147 @@
+.p1{
+
+display: inline;
+border: 5px solid gray;
+box-sizing: border-box;
+
+}
+
+.img1 {
+box-sizing: border-box;
+height: 100px;
+width: 100px;
+display: inline-block;
+border: 5px solid gray;
+
+}
+
+
+
+
+.p2{
+
+display: inline-block;
+
+width: 320px;
+padding: 10px;
+border: 5px solid gray;
+
+margin: 20px;
+
+
+}
+
+.img2 {
+box-sizing: content-box;
+display: inline;
+height: 120px;
+width: 120px;
+position: relative;
+top: 40px; 
+left: 40px;
+border: 5px solid gray;
+margin: 20;
+
+}
+
+.img3 {
+box-sizing: content-box;
+display: inline;
+height: 120px;
+width: 120px;
+position: relative;
+top: 40px; left: 10px;
+border: 5px solid gray;
+margin: 20;
+
+}
+
+.img4 {
+display: inline-block;
+height: 250px;
+width: 250px;
+border: 5px solid gray;
+top:; 
+left: -20px;
+
+}
+
+.p3{
+
+display: inline-block;
+width: 320px;
+padding: 10px;
+border: 5px solid gray;
+margin: 20px;
+
+
+}
+
+.p4{
+
+display: inline-block;
+width: 320px;
+padding: 10px;
+border: 5px solid gray;
+margin: 20px;
+
+
+}
+body {
+  background-color: lightgray;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  background-color: black;
+  text-align: right;
+}
+
+h2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  border-bottom: white 5px solid;
+}
+
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+p.fecha {
+  border-top: black 3px solid;
+  margin-top: 2em;
+  padding-top: 2em;
+  text-align: center;
+}
+
+time {
+  padding: 5px;
+  background-color: gray;
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+strong {
+  font-variant: small-caps;
+}
+
+q {
+  border-bottom: red 1px dashed;
+  font-family: serif;
+  font-size: 150%;
+}
+
+span.a {
+  background-color: white;
+  color: red;
+}
+
+span.b {
+  color: blue;
+}
